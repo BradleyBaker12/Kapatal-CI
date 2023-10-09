@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    background-color: #014e9e;
+  }
+  
+  .sidebar-button {
+    float: right;
+    margin-right: 2%;
+  }
+  
+  .button-sidebar {
+    font-size: 1.12vw;
+    color: #ffffff;
+    font-family: Roboto-Condensed-Regular;
+    background-color: transparent;
+    border: none;
+    padding: 0.52vw;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button-text {
+    margin-top: 2.08vw;
+    transform: rotate(90deg);
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: -25%;
+    background-color: #ffffff;
+    border: 1px solid #343a40;
+    padding-left: 1.82vw;
+    padding-right: 1.82vw;
+    height: 100%;
+    width: 9.37vw;
+    transition: right 1s ease;
+  }
+
+  .sidebar.active{
+    right: 0;
+  }
+    
+  .divider-1 {
+    width: 100%;
+    padding-top: 2.60vw;
+    padding-bottom: 2.08vw;
+    color: #343a40;
+    font-size: 1vw;
+    font-family: Roboto-Condensed-Bold;
+  }
+  
+  .divider-2 {
+    width: 100%;
+    padding-top: 2.08vw;
+    padding-bottom: 2.08vw;
+    color: #343a40;
+    font-size: 1vw;
+    font-family: Roboto-Condensed-Light;
+  }
+  
+  .menu-heading {
+    font-size: 1.26vw;
+    font-weight: 700;
+    color: #343a40;
+  }
+
+  .divider-2-item-container{
+    margin-top: 2.20vw;
+  }
+
+  .brand-value-link{
+    text-decoration: none;
+  }
+
+  .menu-item-link{
+    text-decoration: none;
+    color: #343a40;
+  }
+  
+  .divider-2-item {
+    font-size: 1vw;
+    font-weight: 300;
+    color: #343a40;
+  }
+  
+  .divider-3 {
+    width: 100%;
+    padding-top: 2.08vw;
+    padding-bottom: 2.60vw;
+    color: #343a40;
+    font-size: 1vw;
+    font-family: Roboto-Condensed-Light;
+  }
+  
+  .divider-1-item {
+    color: #014e9e;
+    font-size: 1vw;
+    font-family: Roboto-Condensed-Bold;
+  }
+  
+  .close-button {
+    border: none;
+    background-color: none;
+    background: none;
+    font-size: 1.12vw;
+    width: 100%;
+  }
+  
+  .close-button-text {
+    float: left;
+    font-family: Roboto-Condensed-Regular;
+    text-transform: uppercase;
+  }
+  
+  .close-button-x {
+    float: right;
+    font-family: Roboto-Condensed-Light;
+  }
+  
+  .menu-horizontal-line{
+    width: 100%;
+    height: 0.013vw;
+    background-color: #343a40;
+  }
+
+  .kapatal-index-image{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 15%;
+    height: auto;
+  }
+
+  .main-image{
+    width: 100%;
+    height: auto;
+  }
+
+  .index-content{
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+  }
+
+  .content-text{
+    width: 100%;
+  }
+
+  .content-heading{
+    font-family: Roboto-Condensed-Regular;
+    font-size: 4vw;
+    text-transform: uppercase;
+    color: #EBEFF2;
+  }
+
+  .content-heading-2{
+    font-family: Roboto-Condensed-Bold;
+    font-size: 4vw;
+    text-transform: uppercase;
+    color: #EBEFF2;
+  }
+
+  .content-paragraph{
+    font-family: Roboto-Condensed-Light;
+    color: #EBEFF2;
+    font-size: 1vw;
+  }
+
+  .content-subheading{
+    font-family: Roboto-Condensed-Bold;
+    color: #EBEFF2;
+    font-size: 1vw;
+  }
