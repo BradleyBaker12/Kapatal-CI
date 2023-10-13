@@ -235,11 +235,12 @@
     background-color: #343a40;
     padding-top: 0.78vw;
     padding-bottom: 0.78vw;
+
   }
 
   .gray-ribbon-text{
     color: #EBEFF2;
-    font-size: 2.60vw;
+    font-size: 3vw;
     font-family: Roboto-Condensed-Bold;
   }
 
@@ -252,7 +253,7 @@
 
   .white-ribbon-text{
     color: #343a40;
-    font-size: 2.60vw;
+    font-size: 3vw;
     font-family: Roboto-Condensed-Bold;
   }
 
@@ -265,7 +266,7 @@
 
   .blue-ribbon--text{
     color: #EBEFF2;
-    font-size: 2.60vw;
+    font-size: 3vw;
     font-family: Roboto-Condensed-Bold;
   }
 
@@ -279,7 +280,7 @@
 
   .blue-gray-ribbon--text-1{
     color: #014E9E;
-    font-size: 2.60vw;
+    font-size: 3vw;
     font-family: Roboto-Condensed-Bold;
   }
 
