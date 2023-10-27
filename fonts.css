@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: Roboto-Condensed-Medium;
+    src: url('Resources/Fonts/RobotoCondensed-Medium.ttf') ;
+}
+
+@font-face {
     font-family: Roboto-Condensed-Bold-Italic;
     src: url('Resources/Fonts/RobotoCondensed-BoldItalic.ttf') ;
 }
